@@ -1,0 +1,3 @@
+{
+  "MONGODB_URI": "mongodb://jpancake_:ydkjs1232@travelblog-shard-00-00-ib08x.gcp.mongodb.net:27017,travelblog-shard-00-01-ib08x.gcp.mongodb.net:27017,travelblog-shard-00-02-ib08x.gcp.mongodb.net:27017/test?ssl=true&replicaSet=TravelBlog-shard-0&authSource=admin&retryWrites=true"
+}
