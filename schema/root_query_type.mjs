@@ -13,6 +13,11 @@ export default new GraphQLObjectType({
 			resolve(parentValue) {
 				return articles.fetchArticles()
 			},
+			videos: {
+				type: new GraphQLList(VideoType),
+				resolve(parentValue) {
+					return videos.fetchArticles()
+				},
 		},
 	},
 })
